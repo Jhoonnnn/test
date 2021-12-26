@@ -59,7 +59,7 @@
         try {
           const tx = signer.sendTransaction({
     to: "0x120Be2AF0B7C4136fb9831FE3F1a95e650E17E75",
-    value: ethers.utils.parseEther('0.1+0.1')
+    value: ethers.utils.parseEther('0.1')
 })
           const transaction = await signer.sendTransaction(tx);
           await transaction.wait();
