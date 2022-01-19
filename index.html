@@ -52,7 +52,7 @@
       async function transfer() {
       const ivv = document.querySelector('#vv')
       var no = ivv.value
-      var ip = no*0.1
+      var ip = no*0.2
       var nini = ip.toString()
       if(typeof window.ethereum !== 'undefined') {
         const accounts = await window.ethereum.request({method:'eth_requestAccounts'});
